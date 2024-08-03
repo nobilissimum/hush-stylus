@@ -38,3 +38,45 @@
     --fgColor-accent: var(--ansi-blue);
   }
 }
+
+@-moz-document domain("twitter.com"), domain("x.com") {
+  body {
+    background-color: var(--dark-low) !important;
+  }
+
+  header[role='banner'],
+  .r-1b3ntt7 .r-yfoy6g {
+    background-color: var(--dark-low);
+  }
+
+  .r-rs99b7.r-yfoy6g {
+    background-color: var(--dark-main);
+  }
+
+  .r-8erxvq {
+    background-color: var(--dark-main);
+    border: 1px var(--dark-low-white-10) solid;
+  }
+
+  .r-ii8lfi {
+    background-color: rgba(29, 35, 46, 0.8);
+  }
+
+  .r-xnswec {
+    box-shadow: none;
+    outline: var(--dark-low-white-10);
+    border: 1px var(--dark-low-white-10) solid;
+  }
+
+  .r-18bvks7 {
+    border-color: var(--dark-low-white-10);
+  }
+
+  .r-1ila09b {
+    border-bottom-color: var(--dark-low-white-10);
+  }
+
+  .r-kuekak {
+    background-color: var(--dark-low-white-10);
+  }
+}
