@@ -37,3 +37,9 @@ git clone https://github.com/nobilissimum/hush-stylus
 ```
 
 Click the **Stylus** extension in the browser's extensions panel then select <kbd>Manage</kbd>. There's a <kbd>Write new style</kbd> option in the side menu under the **Backup** section. This will create a new blank style. Select the <kbd>Import</kbd> button in the side menu then paste the contents of `hush.css` then click <kbd>Overwrite style</kbd>.
+
+## Supported websites
+
+- https://www.github.com
+- https://www.twitch.tv
+- https://twitter.com and https://x.com
