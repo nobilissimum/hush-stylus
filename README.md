@@ -15,6 +15,14 @@
   </a>
 </p>
 
+![Twitch preview](assets/preview_twitch.png)
+_https://www.twitch.tv/piratesoftware_
+
+<br />
+
+![Twitch preview](assets/preview_github.png)
+_https://www.github.com/nobilissimum_
+
 ## How to apply theme?
 
 Download and install browser extension **Stylus**.
