@@ -45,11 +45,15 @@
   }
 
   header[role='banner'],
-  .r-1b3ntt7 .r-yfoy6g {
+  .r-1b3ntt7,
+  .r-yfoy6g {
     background-color: var(--dark-low);
   }
 
-  .r-rs99b7.r-yfoy6g {
+  .r-rs99b7.r-yfoy6g,
+  .r-184en5c.r-yfoy6g,
+  .r-1h8ys4a.r-yfoy6g,
+  .r-1777fci.r-yfoy6g {
     background-color: var(--dark-main);
   }
 
@@ -60,6 +64,10 @@
 
   .r-ii8lfi {
     background-color: rgba(29, 35, 46, 0.8);
+  }
+
+  .iebopU {
+    box-shadow: none !important;
   }
 
   .r-xnswec {
@@ -78,6 +86,10 @@
 
   .r-kuekak {
     background-color: var(--dark-low-white-10);
+  }
+
+  .bpbVBQ {
+    padding: 0 1rem;
   }
 }
 
