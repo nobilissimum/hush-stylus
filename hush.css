@@ -1,0 +1,40 @@
+:root {
+  --dark-low: #121c26;
+  --dark-main: #1d232e;
+  --dark-high: #202733;
+
+  --ansi-black: #000000;
+  --ansi-red: #f77172;
+  --ansi-green: #65a884;
+  --ansi-yellow: #cec999;
+  --ansi-blue: #74add2;
+  --ansi-magenta: #a980c4;
+  --ansi-cyan: #2d949f;
+  --ansi-white: #eeeeee;
+}
+
+@-moz-document domain("github.com") {
+  [data-color-mode='light'][data-light-theme*='dark'],
+  [data-color-mode='dark'][data-dark-theme*='dark'] {
+    --bgColor-default: var(--dark-low);
+  }
+
+  [data-color-mode='dark'][data-dark-theme='dark_dimmed'],
+  [data-color-mode='dark'][data-dark-theme='dark_dimmed'] ::backdrop,
+  [data-color-mode='auto'][data-light-theme='dark_dimmed'],
+  [data-color-mode='auto'][data-light-theme='dark_dimmed'] ::backdrop,
+  [data-color-mode='dark'][data-dark-theme='dark_high_contrast'],
+  [data-color-mode='dark'][data-dark-theme='dark_high_contrast'] ::backdrop,
+  [data-color-mode='auto'][data-light-theme='dark_high_contrast'],
+  [data-color-mode='auto'][data-light-theme='dark_high_contrast'] ::backdrop,
+  [data-color-mode='dark'][data-dark-theme='dark_colorblind'],
+  [data-color-mode='dark'][data-dark-theme='dark_colorblind'] ::backdrop,
+  [data-color-mode='auto'][data-light-theme='dark_colorblind'],
+  [data-color-mode='auto'][data-light-theme='dark_colorblind'] ::backdrop {
+    --bgColor-inset: var(--dark-low);
+    --overlay-bgColor: var(--dark-main);
+    --button-default-bgColor-rest: var(--dark-high);
+    --bgColor-muted: var(--dark-high);
+    --fgColor-accent: var(--ansi-blue);
+  }
+}
