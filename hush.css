@@ -80,3 +80,68 @@
     background-color: var(--dark-low-white-10);
   }
 }
+
+@-moz-document domain("twitch.tv") {
+  :root {
+    --color-hinted-grey-1: var(--dark-high);
+    --color-hinted-grey-2: var(--dark-low);
+    --color-hinted-grey-3: var(--dark-main);
+
+    --input-border-width-default: 1px;
+  }
+
+  .iebopU,
+  .cegTsp,
+  .tw-root--theme-dark .chat-room {
+    background-color: var(--color-hinted-grey-1);
+  }
+
+  .fiHaCw {
+    background-color: var(--color-hinted-grey-1) !important;
+  }
+
+  .bgfzlx {
+    background-color: var(--color-hinted-grey-2);
+  }
+
+  .bplHXs {
+    border-top-color: transparent !important;
+    background-color: var(--color-hinted-grey-2) !important;
+  }
+
+  .iebopU:focus,
+  .iebopU:focus:hover {
+    box-shadow: 0 0 0 var(--input-border-width-default)
+        var(--color-border-input-focus),
+      inset 0 0 0 var(--input-border-width-default)
+        var(--color-border-input-focus);
+  }
+
+  .chat-wysiwyg-input__box,
+  .iebopU {
+    box-shadow: none;
+  }
+
+  .jqCeVt,
+  .bgfzlx,
+  .jKAcCJ {
+    box-shadow: none !important;
+  }
+
+  .bPrCFG {
+    border-color: transparent !important;
+  }
+
+  .gGbkYh {
+    border-left-color: transparent !important;
+  }
+
+  .fiHaCw,
+  .pMQwv {
+    border-bottom-color: transparent !important;
+  }
+
+  .drBdyB.tw-combo-input__input {
+    z-index: 1;
+  }
+}
