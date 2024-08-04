@@ -41,5 +41,6 @@ Click the **Stylus** extension in the browser's extensions panel then select <kb
 ## Supported websites
 
 - https://www.github.com
+- https://www.linkedin.com
 - https://www.twitch.tv
 - https://twitter.com and https://x.com
